@@ -9,8 +9,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="446dp"
-        android:layout_height="848dp"
+        android:layout_width="450dp"
+        android:layout_height="928dp"
         android:background="#DAF7A6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,56 +36,56 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.195" />
 
-    <ImageButton
-        android:id="@+id/imageButton10"
+    <ImageView
+        android:id="@+id/imageV10"
         android:layout_width="86dp"
         android:layout_height="58dp"
         android:layout_marginTop="364dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.672"
         app:layout_constraintStart_toStartOf="@+id/textView3"
-        app:layout_constraintTop_toTopOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.04"
-        app:srcCompat="@drawable/olhoVerde" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.168"
+        app:srcCompat="@drawable/olho_verde" />
 
-    <ImageButton
-        android:id="@+id/imageButton7"
+    <ImageView
+        android:id="@+id/imageV7"
         android:layout_width="89dp"
         android:layout_height="58dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.514"
-        app:srcCompat="@drawable/olhoAzul" />
+        app:layout_constraintVertical_bias="0.554"
+        app:srcCompat="@drawable/olho_azul" />
 
-    <ImageButton
-        android:id="@+id/imageButton8"
+    <ImageView
+        android:id="@+id/imageV8"
         android:layout_width="87dp"
         android:layout_height="58dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.941"
+        app:layout_constraintHorizontal_bias="0.937"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.514"
-        app:srcCompat="@drawable/olhoCastanho" />
+        app:layout_constraintVertical_bias="0.556"
+        app:srcCompat="@drawable/olho_castanho" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton9"
         android:layout_width="87dp"
         android:layout_height="56dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.359"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.533"
-        app:srcCompat="@drawable/olhoMel" />
+        app:layout_constraintVertical_bias="0.571"
+        app:srcCompat="@drawable/olho_mel" />
 
-    <ImageButton
+    <ImageView
         android:id="@+id/imageButton4"
         android:layout_width="109dp"
         android:layout_height="206dp"
@@ -93,8 +93,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.231"
-        app:srcCompat="@drawable/veiaFria" />
+        app:layout_constraintVertical_bias="0.272"
+        app:srcCompat="@drawable/veia_fria" />
 
     <TextView
         android:id="@+id/textView5"
@@ -112,30 +112,30 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.138" />
 
-    <ImageButton
-        android:id="@+id/imageButton6"
+    <ImageView
+        android:id="@+id/imageV6"
         android:layout_width="108dp"
         android:layout_height="199dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.112"
+        app:layout_constraintHorizontal_bias="0.119"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.229"
-        app:srcCompat="@drawable/veiaQuente" />
+        app:layout_constraintVertical_bias="0.269"
+        app:srcCompat="@drawable/veia_quente" />
 
-    <ImageButton
-        android:id="@+id/imageButton5"
+    <ImageView
+        android:id="@+id/imageV5"
         android:layout_width="110dp"
         android:layout_height="206dp"
         android:layout_marginTop="52dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.89"
+        app:layout_constraintHorizontal_bias="0.915"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.161"
-        app:srcCompat="@drawable/veiaNeutra" />
+        app:layout_constraintVertical_bias="0.204"
+        app:srcCompat="@drawable/veia_neutra" />
 
     <Button
         android:id="@+id/button2"
@@ -151,17 +151,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.93" />
 
-    <ImageButton
-        android:id="@+id/imageButton14"
+    <ImageView
+        android:id="@+id/imageV14"
         android:layout_width="97dp"
         android:layout_height="149dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.675"
+        app:layout_constraintHorizontal_bias="0.658"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792"
-        app:srcCompat="@drawable/cabeloPreto" />
+        app:layout_constraintVertical_bias="0.832"
+        app:srcCompat="@drawable/cabelo_preto" />
 
     <TextView
         android:id="@+id/textView6"
@@ -175,46 +175,46 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.257" />
+        app:layout_constraintVertical_bias="0.249" />
 
-    <ImageButton
-        android:id="@+id/imageButton12"
+    <ImageView
+        android:id="@+id/imageV12"
         android:layout_width="101dp"
         android:layout_height="149dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton13"
+        app:layout_constraintEnd_toStartOf="@+id/imageV13"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793"
-        app:srcCompat="@drawable/cabeloCastanho" />
+        app:layout_constraintVertical_bias="0.832"
+        app:srcCompat="@drawable/cabelo_castanho" />
 
-    <ImageButton
-        android:id="@+id/imageButton13"
+    <ImageView
+        android:id="@+id/imageV13"
         android:layout_width="102dp"
         android:layout_height="149dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintHorizontal_bias="0.347"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.792"
-        app:srcCompat="@drawable/cabeloLoiro" />
+        app:layout_constraintVertical_bias="0.832"
+        app:srcCompat="@drawable/cabelo_loiro" />
 
-    <ImageButton
-        android:id="@+id/imageButton15"
+    <ImageView
+        android:id="@+id/imageV15"
         android:layout_width="102dp"
         android:layout_height="150dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.996"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.793"
-        app:srcCompat="@drawable/cabeloRuivo" />
+        app:layout_constraintVertical_bias="0.834"
+        app:srcCompat="@drawable/cabelo_ruivo" />
 
     <TextView
         android:id="@+id/textView7"
@@ -232,5 +232,148 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.037" />
+
+    <RadioGroup
+        android:id="@+id/opcoesVeias"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/veiaQuente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="69dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <RadioButton
+            android:id="@+id/veiaFria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="155dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+        <RadioButton
+            android:id="@+id/veiaNeutra"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="268dp"
+            tools:layout_editor_absoluteY="329dp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/cabelos"
+        android:layout_width="191dp"
+        android:layout_height="49dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/castanho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+        <RadioButton
+            android:id="@+id/loiro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="118dp"
+            tools:layout_editor_absoluteY="463dp" />
+
+        <RadioButton
+            android:id="@+id/preto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="212dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+        <RadioButton
+            android:id="@+id/ruivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            tools:layout_editor_absoluteX="301dp"
+            tools:layout_editor_absoluteY="452dp" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/olhos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/azul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="             "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.162"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.583" />
+
+        <RadioButton
+            android:id="@+id/mel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                       "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.391"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.583" />
+
+        <RadioButton
+            android:id="@+id/verde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="                  "
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.655"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.583" />
+
+        <RadioButton
+            android:id="@+id/castanhoo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.909"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.583" />
+
+    </RadioGroup>
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
