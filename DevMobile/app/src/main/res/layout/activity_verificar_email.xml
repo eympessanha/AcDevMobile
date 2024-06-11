@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FA914D">
+
+    <TextView
+        android:id="@+id/esqueciTextV"
+        android:layout_width="211dp"
+        android:layout_height="50dp"
+        android:background="#FA914D"
+        android:gravity="center"
+        android:text="Esqueci a senha"
+        android:textColor="#E9C46A"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.747" />
+
+    <EditText
+        android:id="@+id/entrarText"
+        android:layout_width="287dp"
+        android:layout_height="58dp"
+        android:background="@drawable/curved_edittext_background"
+        android:gravity="center"
+        android:text="Entrar"
+        android:textColor="#264653"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.603" />
+
+    <EditText
+        android:id="@+id/usuarioTextE"
+        android:layout_width="287dp"
+        android:layout_height="58dp"
+        android:background="@drawable/curved_edittext_background"
+        android:gravity="center_vertical"
+        android:text="    Usuário ou e-mail"
+        android:textColor="#264653"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.291" />
+
+    <EditText
+        android:id="@+id/senhaTextE"
+        android:layout_width="287dp"
+        android:layout_height="58dp"
+        android:background="@drawable/curved_edittext_background"
+        android:gravity="center_vertical"
+        android:text="    Senha"
+        android:textColor="#264653"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.572"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.408" />
+
+    <TextView
+        android:id="@+id/LOGIN"
+        android:layout_width="211dp"
+        android:layout_height="50dp"
+        android:background="#FA914D"
+        android:gravity="center"
+        android:text="LOGIN"
+        android:textColor="#F4EDE5"
+        android:textSize="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.182" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="414dp"
+        android:layout_height="261dp"
+        android:background="#264653"
+        android:gravity="center_horizontal"
+        android:text="Verifique o seu e-mail!"
+        android:textColor="#F4EDE5"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/okText"
+        android:layout_width="254dp"
+        android:layout_height="48dp"
+        android:background="@drawable/curved_edittext_background"
+        android:gravity="center"
+        android:text="OK"
+        android:textColor="#264653"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="261dp"
+        android:layout_height="122dp"
+        android:layout_marginTop="61dp"
+        android:gravity="center_horizontal"
+        android:text="Enviamos uma mensagem para luahnkaye@gmail.com. Não recebeu?
+Verifique a caixa spam ou tente de novo."
+        android:textColor="#F4EDE5"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

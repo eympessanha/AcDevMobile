@@ -10,35 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DevMobile"
+        android:theme="@style/Theme.ProjetoTalento"
         tools:targetApi="31">
-        <activity
-            android:name=".VeraoFrio"
-            android:exported="false" />
-        <activity
-            android:name=".VeraoClaro"
-            android:exported="false" />
-        <activity
-            android:name=".PrimaveraQuente"
-            android:exported="false" />
-        <activity
-            android:name=".PrimaveraClara"
-            android:exported="false" />
-        <activity
-            android:name=".OutonoQuente"
-            android:exported="false" />
-        <activity
-            android:name=".OutonoEscuro"
-            android:exported="false" />
-        <activity
-            android:name=".InvernoFrio"
-            android:exported="false" />
-        <activity
-            android:name=".InvernoEscuro"
-            android:exported="false" />
-        <activity
-            android:name=".Questionario"
-            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -48,6 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".EsqueceuSenha" />
+        <activity android:name=".EscolherJornada" />
+        <activity android:name=".Configuracoes" />
+        <activity android:name=".TelaPerfil" />
+        <activity android:name=".Notificacoes" />
+        <activity android:name=".Ajuda" />
+        <activity android:name=".Jornada" />
+        <activity android:name=".Diversikas" />
+
     </application>
 
 </manifest>
